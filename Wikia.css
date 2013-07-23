@@ -1,0 +1,408 @@
+/* common.css copied over for compatibility with new Wikia skin */
+/***** CSS placed here will be applied to all skins on the entire site. Please ensure you do not violate Wikia's Terms of Use by obscuring or removing the advertising. *****/
+/* warning */
+.warning {
+color: #0000ff;
+font-size: larger;
+}
+/* note */
+.Note {
+color: #ff0000;
+font-size: 22px;
+font-family:Sans Serif;
+}
+/* end */
+#WallNotifications .bubbles { 
+background-image:url("http://images3.wikia.nocookie.net/monsterhunterfanon/images/d/d0/Quest-paper-icon.png");
+background-repeat:no-repeat;
+width:34px;
+height:20px;
+}
+/* New cursor */
+/* Here's the code for it */
+body{cursor:url('http://images2.wikia.nocookie.net/__cb20130705141111/monsterhunterfanon/images/9/99/Fanon-Cursor-Lance-3.png'), pointer;
+a {cursor: url('http://images2.wikia.nocookie.net/__cb20130705141111/monsterhunterfanon/images/9/99/Fanon-Cursor-Lance-3.png'),pointer;
+}
+ 
+a:visited{cursor:url('http://images2.wikia.nocookie.net/__cb20130705141111/monsterhunterfanon/images/9/99/Fanon-Cursor-Lance-3.png'), pointer;
+}
+ 
+a:hover{cursor: url('http://images2.wikia.nocookie.net/__cb20130705141111/monsterhunterfanon/images/9/99/Fanon-Cursor-Lance-3.png'), pointer;
+}
+ 
+a:active{
+cursor:url('http://images2.wikia.nocookie.net/__cb20130705141111/monsterhunterfanon/images/9/99/Fanon-Cursor-Lance-3.png'), pointer;
+}
+ 
+p:hover{
+  cursor: url('http://images2.wikia.nocookie.net/__cb20130705141111/monsterhunterfanon/images/9/99/Fanon-Cursor-Lance-3.png'), text;
+}
+}
+/* end the code for it */
+/* New DIVs */
+#FireBrick {
+background-color:#CC0000;
+color:#000000;
+border-radius: 60px;
+-webkit-border-radius: 100px;
+text-align:center; }
+.FireBrick {
+background-color:#CC0000;
+color:#000000;
+border-radius: 60px;
+-webkit-border-radius: 100px;
+text-align:center; }
+/* Poll autoformatting */
+.ajax-poll {
+  width: auto !important;/*inline style override for poll extension*/
+}
+ 
+/*** Background Color ***/
+ 
+#article { background-color: #f9d691; }
+ 
+/*** Unclicked Link Color ***/  
+a {
+color: #894101;
+}
+ 
+a:link { 
+color: #894101;
+}
+ 
+/*** Clicked Link Color ***/
+ 
+a:visited { 
+color: #57421f;
+}
+ 
+ 
+/*** Forum formatting (by -Algorithm & -Splaka) ***/
+ 
+ 
+.forumheader { 
+     border: 1px solid #aaa; background-color: #f4dda5; margin-top: 1em; padding: 12px; 
+}
+.forumlist td.forum_edited a { 
+     color: black; text-decoration: none 
+}
+.forumlist td.forum_title a { 
+     padding-left: 20px; 
+}
+.forumlist td.forum_title a.forum_new { 
+     font-weight: bold; background: url(/images/4/4e/Forum_new.gif) 
+     center left no-repeat; padding-left: 20px; 
+}
+.forumlist td.forum_title a.forum_new:visited { 
+     font-weight: normal; background: none; padding-left: 20px; 
+}
+.forumlist th.forum_title { 
+     padding-left: 20px; 
+}
+ 
+.logoContainer { background-color: transparent!important; }
+ 
+/* Infobox template styling */
+.infobox {
+  float: right;
+  clear: right;
+  margin: 0 0 .5em 1em;
+  width: 250px;
+  background: none;
+  border-collapse: collapse;
+  border-width: 0px;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+.infobox table.infoboxtable {
+  background:#f4dda5;
+  float:right;
+  margin:0;
+  width:100%;
+  border-collapse:collapse;
+}
+.infobox td.infoboximage {
+  padding:0;
+  text-align:center; 
+}
+.infobox th.infoboxheading {
+  font-weight:bold;
+  text-align:center;
+  color:#ffffff;
+  font-size:larger;
+}
+.infobox th.infoboxsubheading {
+  vertical-align:top;
+  text-align:left;
+  font-weight:normal; 
+}
+.infobox td.infoboxlabel, .infobox td.infoboxcell {
+  vertical-align: middle;
+}
+ 
+ /* ugly hack to force normal height for infobox cells */
+.infoboxcell p { margin-top: 0px; margin-bottom: 0px; }
+ 
+.infoboxcell ul {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+ 
+.infoboxcell ul li {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: square;
+}
+ 
+.infobox div.plainlinks {
+  color: #fff;
+}
+ 
+.infobox div.plainlinks a {
+  color: #f0f0f0;
+}
+ 
+table.wikitable {
+  background: #996600;
+  border: 1px #aaa solid;
+  border-collapse: collapse;
+}
+ 
+table.wikitable th, table.wikitable td {
+  border: 1px #aaa solid;
+  padding: 0.2em;
+}
+ 
+table.wikitable th {
+  background: #996600;
+  text-align: center;
+}
+ 
+table.wikitable caption {
+  margin-left: inherit;
+  margin-right: inherit;
+  font-weight: bold;
+}
+ 
+table.linetable { background: #996600 border: 1px #321801 solid; border-collapse: collapse;}
+table.linetable th, table.linetable td { border: 1px #321801 solid; padding: 0.2em; }
+table.linetable th { background: #996600; text-align: center; }
+table.linetable caption { margin-left: inherit; margin-right: inherit; font-weight: bold; }
+ 
+table.treetable { background-color: transparent; border: 1px #f9d691 solid; border-collapse: collapse;}
+table.treetable th { padding-left: 2px; }
+table.treetable th, table.treetable td { border: 1px #f9d691 solid; border-collapse: collapse; padding-left: 2px; }
+table.treetable tr { background-color: #cb995e; }
+table.treetable tr:hover { background-color: #ffff99; }
+ 
+table.hover tr { background-color: transparent; }
+table.hover tr:hover { background-color: #ffff99; }
+ 
+table.hover2 tr:hover { background-color: #cc9555; }
+ 
+table.hover3 tr { background-color: #cb995e; }
+table.hover3 tr:hover { background-color: #ffff99; }
+ 
+.poll {
+ width: 89% !important;
+ background: #f4dda5;
+}
+ 
+#ltr {
+ background:#fff2d4;
+}
+ 
+ 
+/** TABVIEW EXTENSION **/
+ 
+/*Style of the 'off' tabs */
+.yui-navset .yui-nav li.tabOff, .yui-navset .yui-nav li.tabOn {
+  background: #f4dda5 top left repeat-x;
+  color: #371c01;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 2px solid #371c01;
+  border-left: 2px solid #371c01;
+  border-right: 2px solid #371c01;
+  border-bottom: 0px;
+  border-radius: 8px 8px 0px 0px;
+  -moz-border-radius: 8px 8px 0px 0px;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  -o-border-radius: 8px 8px 0px 0px;
+  -khtml-border-radius: 8px 8px 0px 0px;
+}
+ 
+/* Style of the selected tab */
+.yui-navset .yui-nav li.tabPinned {
+  background-color: #FFCC66;
+  color: #371c01;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 3px solid #371c01;
+  border-left: 3px solid #371c01;
+  border-right: 3px solid #371c01;
+  border-bottom: 0px;
+  box-shadow:0 4px 5px #FFCC66 inset;
+  -moz-box-shadow:0 4px 5px #FFCC66 inset;
+  -webkit-box-shadow:0 4px 5px #FFCC66 inset;
+  -o-box-shadow:0 4px 5px #FFCC66 inset;
+  -khtml-box-shadow:0 4px 5px #FFCC66 inset;
+  -moz-border-radius: 8px 8px 0px 0px;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  -o-border-radius: 8px 8px 0px 0px;
+  -khtml-border-radius: 8px 8px 0px 0px;
+}
+ 
+ 
+ 
+/* Menu highlight - this is example is light red/pink */
+.WikiHeader li:hover {
+    background-color: #FFCC66;
+    background-image: -moz-linear-gradient(center top , white 0%, #FFCC66 100%);
+}
+ 
+/* Menu item highlight - this is example is light red/pink */
+.WikiHeader .subnav a:hover {
+   background: none repeat scroll 0 0 #FFCC66 !important;
+}
+ 
+ 
+/*<syntaxhighlight lang="css"><pre>*/
+/* === Template:Ambox designs === */
+ 
+/* Ambox design */
+.ambox {
+    font-size: 95%;
+    width: 80%; 
+    margin: 0 auto;
+    border: 1px #AAA solid;
+    border-left: 10px solid #228b22;
+    border-collapse: collapse;
+    background-color: #EEE;
+}
+ 
+/* Ambox colours */
+.ambox-blue {
+    border-left: 10px solid #1e90ff;    /* Blue (notice) */
+}
+.ambox-red {
+    border-left: 10px solid #b22222;    /* Red (delete/serious) */
+}
+.ambox-orange {
+    border-left: 10px solid #f28500;    /* Orange (content) */
+}
+.ambox-yellow {
+    border-left: 10px solid #f4c430;    /* Yellow (style) */
+}
+.ambox-purple {
+    border-left: 10px solid #9932cc;    /* Purple (merge) */
+}
+.ambox-gray {
+    border-left: 10px solid #bba;        /* Gray (protection) */
+}
+.ambox-green {
+    border-left: 10px solid #228b22;    /* Green */
+}
+ 
+/* Ambox small text */
+.ambox-smalltext {
+    font-size: smaller;
+    margin-top:0.5em;
+    margin-left:0.8em;
+}
+ 
+/* Ambox image */
+.ambox-image {                    /* The left image cell */
+    width: 60px;
+    padding: 2px 0px 2px 0.5em;        /* 0.5em left, 0px right */
+    text-align: center;
+}
+ 
+@media print { .ambox { display: none; } }    /* no ambox when printing */
+/*</pre></syntaxhighlight>*/
+ 
+.comments li[data-user="Democide"] blockquote { background:#32CD32 !important; 
+} 
+.comments li[data-user="Democide"] blockquote:after { border-color:transparent #FF8C00 #FF8C00 transparent !important; 
+} 
+.comments li[data-user="Democide"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Democide"] blockquote div { color:#191970 !important;
+}
+.comments li[data-user="Master Ceadeus 27"] blockquote { background:#0000CC !important; 
+}
+.comments li[data-user="Master Ceadeus 27"] blockquote:after { border-color:transparent #0000CC #0000CC transparent !important; 
+}
+.comments li[data-user="Master Ceadeus 27"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Master Ceadeus 27"] blockquote div { color:#FFFFFF !important;
+}
+.comments li[data-user="Master Ceadeus 27"] blockquote a { color:#ffffff !important;
+}
+.comments li[data-user="PurpleIsGood"] blockquote { background:#7458C1 !important; 
+} 
+.comments li[data-user="PurpleIsGood"] blockquote:after { border-color:transparent #C6C6C6 #C6C6C6 transparent !important; 
+} 
+.comments li[data-user="PurpleIsGood"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="PurpleIsGood"] blockquote div { color:#F5F5F5 !important;
+}
+.comments li[data-user="UkantorEX"] blockquote { background:#000000 !important; 
+} 
+.comments li[data-user="UkantorEX"] blockquote:after { border-color:transparent #FFFF00 #ffff00 transparent !important; 
+} 
+.comments li[data-user="UkantorEX"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="UkantorEX"] blockquote div { color:#FF6600 !important;
+}
+.comments .edited-by li[data-user="UkantorEX"] blockquote div { color:#FF6600 !important;
+}
+.comments li[data-user="Pesky elderdragon"] blockquote { background:#000000 !important; 
+} 
+.comments li[data-user="Pesky elderdragon"] blockquote:after { border-color:transparent #FFFF00 #ffff00 transparent !important; 
+} 
+.comments li[data-user="Pesky elderdragon"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Pesky elderdragon"] blockquote div { color:#CC66FF !important;
+}
+.comments li[data-user="Cottonmouth255"] blockquote { background:#FF6600 !important; 
+} 
+.comments li[data-user="Cottonmouth255"] blockquote:after { border-color:transparent #FF6600 #FF6600 transparent !important; 
+} 
+.comments li[data-user="Cottonmouth255"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Cottonmouth255"] blockquote div { color:#191970 !important;
+}
+.comments li[data-user="Setheo"] blockquote { background:#080A08 !important; 
+} 
+.comments li[data-user="Setheo"] blockquote:after { border-color:transparent #080A08 #080A08 transparent !important; 
+} 
+.comments li[data-user="Setheo"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Setheo"] blockquote div { color:#2CC937 !important;
+}
+.comments li[data-user="Giant enemy Crab11"] blockquote { background:#009900 !important; 
+} 
+.comments li[data-user="Giant enemy Crab11"] blockquote:after { border-color:transparent #080A08 #080A08 transparent !important; 
+} 
+.comments li[data-user="Giant enemy Crab11"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Giant enemy Crab11"] blockquote div { color:#CCFF33 !important;
+}
+.comments li[data-user="Abhi09"] blockquote { background:#A6B97F !important; 
+} 
+.comments li[data-user="Abhi09"] blockquote:after { border-color:transparent #080A08 #080A08 transparent !important; 
+} 
+.comments li[data-user="Abhi09"] blockquote div { background:transparent !important; 
+}
+.comments li[data-user="Abhi09"] blockquote div { color:#3333FF !important;
+}
+.comments li[data-user="Joe333rd"] blockquote { background-color:#00ccff; color:#000000; }
+.comments li[data-user="Joe333rd"] blockquote:after {border-color:transparent #00ccff #00ccff transparent !important; }
+.comments li[data-user="Joe333rd"] blockquote div { background:transparent !important; }
+.comments li[data-user="Joe333rd"] blockquote div { color:#000000 !important; }
+/*stuff*/
+a.tag {
+	color: inherit;
+}
+/*endstuff*/
